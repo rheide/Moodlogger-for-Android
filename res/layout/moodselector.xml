@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300px"
+    android:layout_height="350px">
+    
+    <TextView android:id="@+id/moodText" android:text="TextView"
+            android:textColor="@color/mood_name"
+            android:layout_width="fill_parent"
+            android:layout_height="50px"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"></TextView>
+    
+    <ImageView android:layout_height="300px" android:id="@+id/moodImage"
+            android:layout_width="match_parent"
+            >
+        </ImageView>
+    
+        
+    
+</LinearLayout>

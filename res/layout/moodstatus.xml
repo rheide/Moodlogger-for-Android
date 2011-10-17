@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  class="com.travenect.moodlogger.gui.MoodStatusView"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="8px"
+  android:layout_marginRight="8px"
+  android:layout_alignParentBottom="true"
+  >
+  
+    <ImageView android:layout_height="wrap_content" android:id="@+id/moodStatusImage"
+               android:layout_width="wrap_content"
+               android:src="@drawable/disconnected_32"
+               android:layout_gravity="center"
+               android:paddingRight="8px">
+        </ImageView>
+  
+    <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingRight="8px"
+      android:paddingLeft="8px">
+        
+        <TextView android:id="@+id/moodStatusDate" android:text="Sep 25"
+            android:textColor="#ffff00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            ></TextView>
+            
+        <TextView android:id="@+id/moodStatusTime" android:text="16:00"
+            android:textColor="#bebeff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            ></TextView>
+        
+    </LinearLayout>
+  
+  <TextView android:id="@+id/moodStatusText" android:text="WOOF"
+            android:textColor="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="left|center_vertical"
+            android:paddingLeft="8px"></TextView>
+    
+</LinearLayout>
